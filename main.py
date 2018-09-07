@@ -71,7 +71,7 @@ def optimum_policy(grid,goal,cost):
                                 # Step. 順便把該symbol assign至policy matrix上
                                 policy[x][y] = delta_name[a]
 
-    #return policy
-    return value
+    return policy
+    #return value
 
 pprint.pprint(optimum_policy(grid,goal,cost))
